@@ -1,0 +1,375 @@
+.header-list li {
+  list-style: none;
+  float: right;
+  font-size: 15px;
+  color: rgb(20, 20, 20);
+  margin:30px 10px 0px 30px;
+  cursor: pointer;
+}
+
+li:hover {
+  border-bottom: 2px solid white;
+}
+
+.container img {
+  padding: 30px 0px 0px 0px;
+  object-fit: contain;
+  width:100px;
+  height:100px;
+}
+
+body {
+  min-width:900px;
+}
+
+.container {
+  color:aliceblue;
+  height:900px;
+  width:100%;
+  background-size: cover;
+  background-image: url(image/IMG_5375.JPG);
+  display:flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header-top:hover {
+  opacity: .7;
+}
+
+.header-top {
+  display: flex;
+}
+
+.header-logo {
+  
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0px 0px 40px;
+  cursor: pointer;
+}
+
+.logo-text h1 {
+  font-size: 24px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-flow: column;
+  margin: 50px 0px 0px 10px;
+  cursor: pointer;
+}
+
+.logo-text p {
+  display: flex;
+  flex-flow: column;
+  margin: 0px 0px 0px 20px;
+  cursor: pointer;
+}
+
+
+.header-list {
+  display:flex;
+  margin: 0px 30px 0px auto;
+  justify-content: flex-end;
+  
+}
+
+.main-wrapper {
+  background-color:#f6f6f6;
+  display: flex;
+  flex-flow:column;
+  align-items: center;
+  text-align: center;
+}
+
+.main-top h1 {
+  font-size: 44px;
+}
+
+.main-top p {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 20px;
+  margin: 50px 223px;
+}
+
+.main-container p {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.product-wrapper {
+  width:100%;
+  object-fit: cover;
+  height: 1000px;
+  align-items: center
+}
+
+.product-top {
+  display: flex;
+  margin:30px 0px 0px 30px;
+  font-size:30px;
+}
+
+.product-top button {
+  display: flex;
+  justify-content: flex-end;
+  width: 150px;
+  height: 50px;
+  padding:0 50px;
+  border:1px solid black;
+  margin: 30px 30px 0px auto;
+  align-items :center;
+  text-align:center;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.product-top button:hover {
+  background-color:black;
+  color: white;
+}
+
+.product-wrapper img {
+  height: 300px;
+  display: flex;
+  margin:30px;
+  cursor: pointer;
+}
+
+.product-wrapper img:hover {
+  opacity:.5;
+}
+
+.product-img {
+  display: flex;
+  width:100%;
+  justify-content:center;
+  text-align: center;
+  padding:20px 20px;
+  
+}
+
+.product-img p {
+  display: flex;
+  padding-left: 30px;
+  margin: 0px;
+}
+
+
+
+.product-img2 {
+  display: flex;
+  justify-content:center;
+  text-align: center;
+}
+
+.product-img2 p {
+  display: flex;
+  padding-left: 30px;
+  margin: 0px;
+
+}
+
+.news-wrapper {
+  background-color:#f6f6f6;
+  padding-bottom:70px;
+}
+
+.news-container {
+  padding : 0px 50px;
+}
+
+.news-section img {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  width: 300px;
+  height: 150px;
+  vertical-align: top;
+  padding: 25px 15px 0px 15px;
+}
+
+.news-item {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 60px 15px 0px 15px;
+  cursor: pointer;
+}
+
+.news-item:hover {
+  opacity: .5;
+}
+
+.text-box {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column;
+  font-size:12px;
+  padding: 0px 30px 0px 20px;
+}
+
+.news-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-left {
+  justify-content: flex-start;
+  margin:90px 0px 0px 90px;
+}
+
+.news-left h3 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+
+.news-right button {
+  justify-content: flex-end;
+  width: 150px;
+  height: 50px;
+  padding:0 50px;
+  border:1px solid black;
+  margin: 140px 60px 0px auto;
+  align-items :center;
+  text-align:center;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.news-right button:hover {
+  background-color:black;
+  color: white;
+}
+
+.footer-share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans Std Book", sans-serif;
+  margin: 10px;
+}
+
+.share-fa {
+  line-height: 45px;
+  width: 150px;
+  margin: 30px 10px 30px 30px;
+  color: #4871a9;
+  border: 1px solid #4871a9;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor:pointer;
+  transition: all .2s;
+}
+
+.share-fa:hover {
+  background-color:#4871a9;
+  color:white;
+}
+
+.share-tw {
+  line-height: 45px;
+  width: 150px;
+  margin: 30px 10px 30px 30px;
+  color: #70bdd3;
+  border: 1px solid #70bdd3;
+  text-align: center;
+  cursor:pointer;
+  transition: all .2s;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.share-tw:hover {
+  background-color:#70bdd3;
+  color:white;
+}
+
+.share-ha {
+  line-height: 45px;
+  width: 150px;
+  margin: 30px 10px 30px 30px;
+  color: #2f9bcd;
+  border: 1px solid #2f9bcd;
+  text-align: center;
+  cursor:pointer;
+  transition: all .2s;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.share-ha:hover {
+  background-color:#2f9bcd;
+  color:white;
+}
+
+.footer-list {
+  background-color:#939899;
+  background-size: cover;
+  padding:10px;
+ 
+}
+
+.footer-list ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding:10px 30px 10px 10px; */
+  /* margin: 0px; */
+}
+
+.footer-list li {
+  margin:25px;
+  font-size: 12px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.footer-list li:hover {
+  border-bottom: 2px solid white;
+}
+
+.footer-wrapper {
+  background-color:#656c6e;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container img {
+  margin: 10px 0px 0px 50px;
+  padding: 30px 0px 0px 30px;
+  object-fit: contain;
+  width:100px;
+  height:100px;
+}
+.footer-left {
+  margin : 10px auto 0px 30px;
+}
+.footer-left h1{
+  font-size: 20px;
+  color: white;
+  margin: 0px 10px 0px 40px;;
+}
+
+.footer-left p{ 
+  font-size: 12px;
+  margin: 0px 10px 50px 55px;
+  color: white;
+}
+
+.footer-right p {
+color:white;
+justify-content: flex-end;
+font-size:10px;
+margin: 0px 100px 0px 0px ;
+}
